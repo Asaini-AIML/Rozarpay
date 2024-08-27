@@ -13,10 +13,29 @@
             padding-top: 12rem;
             padding-bottom: 12rem;
          }
+         .companiesList {
+    position: absolute;
+    top: 0;
+    animation: moveImage 10s infinite linear;
+}
+
+@keyframes moveImage {
+    0% {
+        top: 0%;
+    }
+    100% {
+        top: -100%;
+    }
+}
+
+
+
+         
      </style>
     <title>Rozarpay</title>
 </head>
 <body>
+    <div class="overflow-x-hidden relative w-full">
    <nav class="bg-deepBlue">
        <div class="relative w-[1080px] mx-auto flex items-center justify-between">
            <!-- Logo -->
@@ -645,7 +664,31 @@
 
         </div>
     </section>
+    <!--Join rozarpay section-->
+    <section class="bg-[#f5f8fe] relative pt-40 pb-12 -mt-[200px] -z-[100]">
+        <div class="relative w-10/12 max-w-[1080px] mx-auto pt-4  flex flex-row items-center">
+            <!--left-->
+            <div class="flex flex-col relative justify-center max-w-[calc(100%-500px)] ">
+                <h2 class="font-mullish font-bold text-2xl text-deepBlueHead mt-6">Join the 50,00,000+ business using Rozarpay</h2>
+                <div  class="bg-greenLight w-6 h-1  mt-4 mb-10"></div>
+                <p class="font-mullish mt-6 opacity-75">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci velit voluptatum nam tempora. Sequi voluptatem praesentium ea perspiciatis veritatis repellendus quaerat dolore molestias, modi eum? bhiu ij kokjm nknknbj  nkjniu kjnj mmn jbhj.
+                </br>
+                </br>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.                
+                </p>
+            </div>
+            <!--right-->
+            <div class="h-[500px] w-[500px] relative overflow-y-hidden">
+                <div style="background: linear-gradient(180deg, #f4f8ff, #fff0)" class="absolute w-full h-[150px] top-0 z-50"></div>
+                <img src="./image/comanies.png" class="absolute h-auto object-cover companiesList" alt="" >
+                <div style="background: linear-gradient(0deg, #f4f8ff, #fff0)" class="absolute w-full h-[150px] bottom-0 z-50"></div>
+            </div>
+            
+             
+        </div>
 
+    </section>
+</div>
       
    
    <script>
