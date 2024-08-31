@@ -8,6 +8,11 @@
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
      <script src="https://unpkg.com/feather-icons"></script>
      <style>
+        .ctaSection{
+            background-size: 100% 100%;
+            padding-top: 12rem;
+            padding-bottom: 12rem;
+        }
          .corefeature{
             background-size: 100% 100%;
             padding-top: 12rem;
@@ -743,22 +748,26 @@
     </section>
 
 <!---CTA-->
-<section>
-    <div>
+<section class="bg-[url(/image/CTABg.svg)] w-full h-full bg-no-repeat bg-cover relative ctaSection ">
+    <div class="w:11/12 max-w-[1080px] relative flex flex-row items-center justify-between space-x-20 mx-auto">
         <!--left-->
-        <h2></h2>
-        <div></div>
-        <p></p>
-        <ul>
-            <li><i></i><span></span></li>
-            <li><i></i><span></span></li>
-            <li><i></i><span></span></li>
-            <li><i></i><span></span></li>
+        <div >
+        <h2 class="font-mullish font-bold text-2xl text-white mt-2 mb-2">Supercharge with Rozarpay</h2>
+        <div class="w-6 h-1  bg-greenLight mb-5 mt-5"></div>
+        <p class="font-mullish text-white mb-5 mt-5">Sign up now to Experience the future of payments offer <br> your customers the best checkout experience</p>
+        <ul class="flex flex-row flex-wrap gap-4 space-y-2 text-white">
+            <li class="font-mullish text-white flex flex-row"><i data-feather="check" class="text-greenLight"></i><span>Access to entire product</span></li>
+            <li class="font-mullish text-white flex flex-row"><i data-feather="check" class="text-greenLight"></i><span>Quick Onboarding</span></li>
+            <li class="font-mullish text-white flex flex-row"><i data-feather="check" class="text-greenLight"></i><span>API access</span></li>
+            <li class="font-mullish text-white flex flex-row"><i data-feather="check" class="text-greenLight"></i><span>24x7 support</span></li>
         </ul>
-        <button></button>
+        <a href="/signup" >
+            <button class=" text-lightBlue300 bg-white border rounded-md py-3 px-2 font-mullish hover:text-lightBlue500 transition-all duration-200 mt-4">Sign Up Now</button>
+           </a>
+    </div>
 
         <!--right-->
-        <img src="./image/ctaImg.svg" alt="">
+        <img src="./image/ctaImg.svg" alt="" width="240px" height="282px">
     </div>
 </section>
 
