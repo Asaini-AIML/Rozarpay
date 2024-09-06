@@ -40,53 +40,53 @@
     <title>Rozarpay</title>
 </head>
 <body>
-    <div class="overflow-x-hidden relative w-full">
+    <div class="overflow-x-hidden relative w-full ">
    <nav class="bg-deepBlue">
        <div class="relative w-[1080px] mx-auto flex items-center justify-between">
            <!-- Logo -->
            <a href="/" class="cursor-pointer py-7 pr-7">
                <img src="./image/logo-dark.svg" alt="Company Logo" width="125px" height="30px"/>
            </a>
-           <ul class="flex gap-5 ">
-               <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+           <ul class="flex gap-5  ">
+               <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block ">
                    <a href="#">Payments</a>
                    <div class="absolute w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"></div>
                </li>
                <!-- Remove or populate the other <li> tags -->
-                <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+                <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block ">
                     <a href="#">Banking</a>
                     <div class="absolute w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"></div>
                 </li>
-                <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+                <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block ">
                     <a href="#">Corporate Card</a>
                     
                 </li>
-                <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+                <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block ">
                     <a href="#">Payroll</a>
                     
                 </li>
-                <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+                <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block ">
                     <a href="#">Resources</a>
                     <div class="absolute w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"></div>
                 </li>
-                <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+                <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block ">
                     <a href="#">Support</a>
                     <div class="absolute w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"></div>
                 </li>
-                <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+                <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block ">
                     <a href="#">Pricing</a>
                     <div class="absolute w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"></div>
                 </li>
            </ul>
            <div class="flex gap-5">
-             <img src="./image/india-flag.svg" alt="">
+             <img src="./image/india-flag.svg" alt="" class="hidden lg:block ">
              <a href="/login">
                 <button class="border-2 rounded-sm cursor-pointer border-lightBlue text-sm font-bold py-3 px-5 text-white font-mullish">
                     Log in
                 </button>
             </a>
             <a href="/signup">
-                <button class="border-2 rounded-sm cursor-pointer text-sm  py-3 px-4 text-lightBlue300 font-mullish bg-white transition-all duration-200 hover:text-lightBlue500 font-bold">
+                <button class="border-2 rounded-sm cursor-pointer text-sm  py-3 px-4 text-lightBlue300 font-mullish bg-white transition-all duration-200 hover:text-lightBlue500 font-bold hidden lg:block ">
                     Sing Up <i class="fas fa-arrow-right ml-2"></i>
                 </button>
             </a>
@@ -96,7 +96,7 @@
    </nav>  
   <!--Hero section-->
    <section class="relative bg-deepBlue">
-    <div class="w-10/12 max-w-[1080px] flex  flex-row justify-between items-center mx-auto ">
+    <div class="w-10/12 max-w-[1080px] flex flex-col lg:flex-row justify-between items-center mx-auto ">
         
              <!--left-->
         <div class="space-y-8">
@@ -150,7 +150,7 @@
                 </div>
             </div>
             <!--right-->
-            <img class="max-w-[600px] relative right-0 bottom-0 " src="./image/payment-suite.png" alt="">
+            <img class="max-w-[600px] relative right-0 bottom-0" src="./image/payment-suite.png" alt="">
         </div>
         <!--gird section card-->
        <div class=" w-full mt-10 grid grid-cols-3  gap-4">
